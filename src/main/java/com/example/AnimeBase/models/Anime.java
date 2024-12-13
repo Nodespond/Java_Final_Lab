@@ -46,6 +46,10 @@ public class Anime {
         images.add(image);
     }
 
+    public Long getPreviewImageId(){
+        return previewImageId;
+    }
+
     public Long getId(){
         return id;
     }

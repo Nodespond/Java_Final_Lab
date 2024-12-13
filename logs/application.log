@@ -1,0 +1,622 @@
+2024-12-14 03:40:06 - Starting AnimeBaseApplication using Java 23.0.1 with PID 14688 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 03:40:06 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 03:40:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 03:40:07 - Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2024-12-14 03:40:08 - Tomcat initialized with port 8080 (http)
+2024-12-14 03:40:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 03:40:08 - Starting service [Tomcat]
+2024-12-14 03:40:08 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 03:40:08 - Initializing Spring embedded WebApplicationContext
+2024-12-14 03:40:08 - Root WebApplicationContext: initialization completed in 1855 ms
+2024-12-14 03:40:08 - HikariPool-1 - Starting...
+2024-12-14 03:40:09 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d4a82
+2024-12-14 03:40:09 - HikariPool-1 - Start completed.
+2024-12-14 03:40:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 03:40:09 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 03:40:09 - HHH000026: Second-level cache disabled
+2024-12-14 03:40:09 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 03:40:09 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 03:40:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 03:40:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 03:40:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 03:40:11 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 03:40:11 - Starting...
+2024-12-14 03:40:11 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@18f1a81a]]
+2024-12-14 03:40:11 - Started.
+2024-12-14 03:40:11 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 03:40:11 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 03:40:11 - Started AnimeBaseApplication in 6.052 seconds (process running for 6.597)
+2024-12-14 03:40:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 03:40:25 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 03:40:25 - Completed initialization in 1 ms
+2024-12-14 03:40:25 - Ошибка при добавлении аниме: Error
+2024-12-14 03:40:40 - Аниме удалено: 60
+2024-12-14 03:40:52 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 03:40:52 - Graceful shutdown complete
+2024-12-14 03:40:52 - Stopping...
+2024-12-14 03:40:52 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@18f1a81a]]
+2024-12-14 03:40:52 - Stopped.
+2024-12-14 03:40:52 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 03:40:52 - HikariPool-1 - Shutdown initiated...
+2024-12-14 03:40:52 - HikariPool-1 - Shutdown completed.
+2024-12-14 03:51:36 - Starting AnimeBaseApplication using Java 23.0.1 with PID 13080 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 03:51:36 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 03:51:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 03:51:38 - Finished Spring Data repository scanning in 138 ms. Found 2 JPA repository interfaces.
+2024-12-14 03:51:39 - Tomcat initialized with port 8080 (http)
+2024-12-14 03:51:39 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 03:51:39 - Starting service [Tomcat]
+2024-12-14 03:51:39 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 03:51:39 - Initializing Spring embedded WebApplicationContext
+2024-12-14 03:51:39 - Root WebApplicationContext: initialization completed in 2165 ms
+2024-12-14 03:51:39 - HikariPool-1 - Starting...
+2024-12-14 03:51:40 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f235107
+2024-12-14 03:51:40 - HikariPool-1 - Start completed.
+2024-12-14 03:51:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 03:51:40 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 03:51:40 - HHH000026: Second-level cache disabled
+2024-12-14 03:51:41 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 03:51:41 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 03:51:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 03:51:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 03:51:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 03:51:43 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 03:51:43 - Starting...
+2024-12-14 03:51:43 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2b68c59b]]
+2024-12-14 03:51:43 - Started.
+2024-12-14 03:51:43 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 03:51:43 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 03:51:43 - Started AnimeBaseApplication in 7.207 seconds (process running for 7.705)
+2024-12-14 03:51:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 03:51:43 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 03:51:43 - Completed initialization in 2 ms
+2024-12-14 03:51:51 - Saving new Anime. Title: DanDaDan ; Author: d
+2024-12-14 03:51:51 - Аниме добавлено: DanDaDan
+2024-12-14 03:51:54 - Аниме удалено: 61
+2024-12-14 03:51:58 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 03:51:58 - Graceful shutdown complete
+2024-12-14 03:51:58 - Stopping...
+2024-12-14 03:51:58 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2b68c59b]]
+2024-12-14 03:51:58 - Stopped.
+2024-12-14 03:51:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 03:51:58 - HikariPool-1 - Shutdown initiated...
+2024-12-14 03:51:58 - HikariPool-1 - Shutdown completed.
+2024-12-14 03:59:37 - Starting AnimeBaseApplication using Java 23.0.1 with PID 1172 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 03:59:37 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 03:59:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 03:59:38 - Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2024-12-14 03:59:38 - Tomcat initialized with port 8080 (http)
+2024-12-14 03:59:38 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 03:59:38 - Starting service [Tomcat]
+2024-12-14 03:59:38 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 03:59:38 - Initializing Spring embedded WebApplicationContext
+2024-12-14 03:59:38 - Root WebApplicationContext: initialization completed in 1873 ms
+2024-12-14 03:59:39 - HikariPool-1 - Starting...
+2024-12-14 03:59:39 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b70d1fb
+2024-12-14 03:59:39 - HikariPool-1 - Start completed.
+2024-12-14 03:59:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 03:59:39 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 03:59:39 - HHH000026: Second-level cache disabled
+2024-12-14 03:59:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 03:59:40 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 03:59:41 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 03:59:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 03:59:41 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 03:59:42 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 03:59:42 - Starting...
+2024-12-14 03:59:42 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1e5921ec]]
+2024-12-14 03:59:42 - Started.
+2024-12-14 03:59:42 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 03:59:42 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 03:59:42 - Started AnimeBaseApplication in 6.206 seconds (process running for 6.752)
+2024-12-14 03:59:48 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 03:59:48 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 03:59:48 - Completed initialization in 1 ms
+2024-12-14 04:00:28 - Saving new Anime. Title: DanDaDan ; Author: Крутое
+2024-12-14 04:00:28 - Аниме добавлено: DanDaDan
+2024-12-14 04:00:39 - Ошибка при добавлении аниме: Неправильно указан тип аниме
+2024-12-14 04:00:42 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-12-14 04:00:55 - Ошибка при добавлении аниме: Неправильное название аниме
+2024-12-14 04:01:12 - Ошибка при добавлении аниме: Error
+2024-12-14 04:02:10 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:02:10 - Graceful shutdown complete
+2024-12-14 04:02:10 - Stopping...
+2024-12-14 04:02:10 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1e5921ec]]
+2024-12-14 04:02:10 - Stopped.
+2024-12-14 04:02:10 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:02:10 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:02:10 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:06:41 - Starting AnimeBaseApplication using Java 23.0.1 with PID 8524 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:06:41 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:06:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:06:42 - Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:06:42 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:06:43 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:06:43 - Starting service [Tomcat]
+2024-12-14 04:06:43 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:06:43 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:06:43 - Root WebApplicationContext: initialization completed in 1674 ms
+2024-12-14 04:06:43 - HikariPool-1 - Starting...
+2024-12-14 04:06:43 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79df80a4
+2024-12-14 04:06:43 - HikariPool-1 - Start completed.
+2024-12-14 04:06:43 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:06:43 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:06:43 - HHH000026: Second-level cache disabled
+2024-12-14 04:06:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:06:44 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:06:45 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:06:45 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:06:45 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:06:45 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:06:46 - Starting...
+2024-12-14 04:06:46 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@31ce271c]]
+2024-12-14 04:06:46 - Started.
+2024-12-14 04:06:46 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:06:46 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:06:46 - Started AnimeBaseApplication in 5.553 seconds (process running for 6.056)
+2024-12-14 04:07:11 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:07:11 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:07:11 - Completed initialization in 2 ms
+2024-12-14 04:07:46 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-12-14 04:07:49 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:07:49 - Graceful shutdown complete
+2024-12-14 04:07:49 - Stopping...
+2024-12-14 04:07:49 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@31ce271c]]
+2024-12-14 04:07:49 - Stopped.
+2024-12-14 04:07:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:07:49 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:07:49 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:07:53 - Starting AnimeBaseApplication using Java 23.0.1 with PID 14536 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:07:53 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:07:54 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:07:54 - Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:07:55 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:07:55 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:07:55 - Starting service [Tomcat]
+2024-12-14 04:07:55 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:07:55 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:07:55 - Root WebApplicationContext: initialization completed in 1725 ms
+2024-12-14 04:07:55 - HikariPool-1 - Starting...
+2024-12-14 04:07:55 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79df80a4
+2024-12-14 04:07:55 - HikariPool-1 - Start completed.
+2024-12-14 04:07:56 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:07:56 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:07:56 - HHH000026: Second-level cache disabled
+2024-12-14 04:07:56 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:07:56 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:07:57 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:07:57 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:07:58 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:07:58 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:07:58 - Starting...
+2024-12-14 04:07:58 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@31ce271c]]
+2024-12-14 04:07:58 - Started.
+2024-12-14 04:07:58 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:07:58 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:07:58 - Started AnimeBaseApplication in 5.79 seconds (process running for 6.322)
+2024-12-14 04:08:01 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:08:01 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:08:01 - Completed initialization in 2 ms
+2024-12-14 04:08:23 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:08:23 - Graceful shutdown complete
+2024-12-14 04:08:23 - Stopping...
+2024-12-14 04:08:23 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@31ce271c]]
+2024-12-14 04:08:23 - Stopped.
+2024-12-14 04:08:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:08:23 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:08:23 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:08:26 - Starting AnimeBaseApplication using Java 23.0.1 with PID 9116 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:08:26 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:08:27 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:08:27 - Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:08:28 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:08:28 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:08:28 - Starting service [Tomcat]
+2024-12-14 04:08:28 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:08:28 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:08:28 - Root WebApplicationContext: initialization completed in 1634 ms
+2024-12-14 04:08:28 - HikariPool-1 - Starting...
+2024-12-14 04:08:29 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@132e3594
+2024-12-14 04:08:29 - HikariPool-1 - Start completed.
+2024-12-14 04:08:29 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:08:29 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:08:29 - HHH000026: Second-level cache disabled
+2024-12-14 04:08:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:08:29 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:08:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:08:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:08:31 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:08:31 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:08:31 - Starting...
+2024-12-14 04:08:31 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@4a9d6eb9]]
+2024-12-14 04:08:31 - Started.
+2024-12-14 04:08:31 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:08:31 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:08:31 - Started AnimeBaseApplication in 5.937 seconds (process running for 6.446)
+2024-12-14 04:08:32 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:08:32 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:08:32 - Completed initialization in 1 ms
+2024-12-14 04:08:52 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:08:52 - Graceful shutdown complete
+2024-12-14 04:08:52 - Stopping...
+2024-12-14 04:08:52 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@4a9d6eb9]]
+2024-12-14 04:08:52 - Stopped.
+2024-12-14 04:08:52 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:08:52 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:08:52 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:08:55 - Starting AnimeBaseApplication using Java 23.0.1 with PID 15068 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:08:55 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:08:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:08:56 - Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:08:56 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:08:56 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:08:56 - Starting service [Tomcat]
+2024-12-14 04:08:56 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:08:56 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:08:56 - Root WebApplicationContext: initialization completed in 1719 ms
+2024-12-14 04:08:57 - HikariPool-1 - Starting...
+2024-12-14 04:08:57 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a0ab480
+2024-12-14 04:08:57 - HikariPool-1 - Start completed.
+2024-12-14 04:08:57 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:08:57 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:08:57 - HHH000026: Second-level cache disabled
+2024-12-14 04:08:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:08:58 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:08:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:08:59 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:08:59 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:08:59 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:09:00 - Starting...
+2024-12-14 04:09:00 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@333e01c6]]
+2024-12-14 04:09:00 - Started.
+2024-12-14 04:09:00 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:09:00 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:09:00 - Started AnimeBaseApplication in 6.008 seconds (process running for 6.544)
+2024-12-14 04:09:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:09:14 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:09:14 - Completed initialization in 2 ms
+2024-12-14 04:10:00 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-12-14 04:11:52 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:11:52 - Graceful shutdown complete
+2024-12-14 04:11:52 - Stopping...
+2024-12-14 04:11:52 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@333e01c6]]
+2024-12-14 04:11:52 - Stopped.
+2024-12-14 04:11:52 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:11:52 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:11:52 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:12:07 - Starting AnimeBaseApplication using Java 23.0.1 with PID 3624 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:12:07 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:12:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:12:08 - Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:12:09 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:12:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:12:09 - Starting service [Tomcat]
+2024-12-14 04:12:09 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:12:09 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:12:09 - Root WebApplicationContext: initialization completed in 1636 ms
+2024-12-14 04:12:09 - HikariPool-1 - Starting...
+2024-12-14 04:12:10 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c835217
+2024-12-14 04:12:10 - HikariPool-1 - Start completed.
+2024-12-14 04:12:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:12:10 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:12:10 - HHH000026: Second-level cache disabled
+2024-12-14 04:12:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:12:10 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:12:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:12:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:12:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:12:12 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:12:12 - Starting...
+2024-12-14 04:12:12 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@326d39fd]]
+2024-12-14 04:12:12 - Started.
+2024-12-14 04:12:12 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:12:12 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:12:12 - Started AnimeBaseApplication in 5.65 seconds (process running for 6.163)
+2024-12-14 04:12:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:12:18 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:12:18 - Completed initialization in 1 ms
+2024-12-14 04:12:27 - Аниме удалено: 56
+2024-12-14 04:12:37 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:12:37 - Graceful shutdown complete
+2024-12-14 04:12:37 - Stopping...
+2024-12-14 04:12:37 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@326d39fd]]
+2024-12-14 04:12:37 - Stopped.
+2024-12-14 04:12:37 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:12:37 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:12:37 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:14:24 - Starting AnimeBaseApplication using Java 23.0.1 with PID 14148 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:14:24 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:14:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:14:25 - Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:14:25 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:14:25 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:14:25 - Starting service [Tomcat]
+2024-12-14 04:14:25 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:14:25 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:14:25 - Root WebApplicationContext: initialization completed in 1644 ms
+2024-12-14 04:14:25 - HikariPool-1 - Starting...
+2024-12-14 04:14:26 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d59e968
+2024-12-14 04:14:26 - HikariPool-1 - Start completed.
+2024-12-14 04:14:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:14:26 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:14:26 - HHH000026: Second-level cache disabled
+2024-12-14 04:14:26 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:14:27 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:14:27 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:14:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:14:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:14:28 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:14:28 - Starting...
+2024-12-14 04:14:28 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@648c80cb]]
+2024-12-14 04:14:28 - Started.
+2024-12-14 04:14:28 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:14:28 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:14:28 - Started AnimeBaseApplication in 5.542 seconds (process running for 6.047)
+2024-12-14 04:14:44 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:14:44 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:14:44 - Completed initialization in 1 ms
+2024-12-14 04:15:20 - Saving new Anime. Title: Batat Batat ; Author: 12
+2024-12-14 04:15:20 - Аниме добавлено: Batat Batat
+2024-12-14 04:15:28 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-12-14 04:15:56 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:15:56 - Graceful shutdown complete
+2024-12-14 04:15:56 - Stopping...
+2024-12-14 04:15:56 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@648c80cb]]
+2024-12-14 04:15:56 - Stopped.
+2024-12-14 04:15:56 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:15:56 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:15:56 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:19:23 - Starting AnimeBaseApplication using Java 23.0.1 with PID 12232 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:19:23 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:19:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:19:24 - Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:19:25 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:19:25 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:19:25 - Starting service [Tomcat]
+2024-12-14 04:19:25 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:19:25 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:19:25 - Root WebApplicationContext: initialization completed in 1735 ms
+2024-12-14 04:19:25 - HikariPool-1 - Starting...
+2024-12-14 04:19:26 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@448462f0
+2024-12-14 04:19:26 - HikariPool-1 - Start completed.
+2024-12-14 04:19:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:19:26 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:19:26 - HHH000026: Second-level cache disabled
+2024-12-14 04:19:26 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:19:26 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:19:27 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:19:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:19:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:19:28 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:19:29 - Starting...
+2024-12-14 04:19:29 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3f523dae]]
+2024-12-14 04:19:29 - Started.
+2024-12-14 04:19:29 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:19:29 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:19:29 - Started AnimeBaseApplication in 6.007 seconds (process running for 6.561)
+2024-12-14 04:19:29 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:19:29 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:19:29 - Completed initialization in 2 ms
+2024-12-14 04:20:15 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:20:15 - Graceful shutdown complete
+2024-12-14 04:20:15 - Stopping...
+2024-12-14 04:20:15 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3f523dae]]
+2024-12-14 04:20:15 - Stopped.
+2024-12-14 04:20:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:20:15 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:20:15 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:20:19 - Starting AnimeBaseApplication using Java 23.0.1 with PID 5548 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:20:19 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:20:19 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:20:20 - Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:20:20 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:20:20 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:20:20 - Starting service [Tomcat]
+2024-12-14 04:20:20 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:20:20 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:20:20 - Root WebApplicationContext: initialization completed in 1745 ms
+2024-12-14 04:20:21 - HikariPool-1 - Starting...
+2024-12-14 04:20:21 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2eb0cefe
+2024-12-14 04:20:21 - HikariPool-1 - Start completed.
+2024-12-14 04:20:21 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:20:21 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:20:21 - HHH000026: Second-level cache disabled
+2024-12-14 04:20:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:20:22 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:20:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:20:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:20:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:20:23 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:20:24 - Starting...
+2024-12-14 04:20:24 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@64faf3d]]
+2024-12-14 04:20:24 - Started.
+2024-12-14 04:20:24 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:20:24 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:20:24 - Started AnimeBaseApplication in 6.093 seconds (process running for 6.665)
+2024-12-14 04:20:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:20:25 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:20:25 - Completed initialization in 2 ms
+2024-12-14 04:20:36 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:20:36 - Graceful shutdown complete
+2024-12-14 04:20:36 - Stopping...
+2024-12-14 04:20:36 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@64faf3d]]
+2024-12-14 04:20:36 - Stopped.
+2024-12-14 04:20:36 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:20:36 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:20:36 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:30:07 - Starting AnimeBaseApplication using Java 23.0.1 with PID 4348 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:30:07 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:30:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:30:08 - Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:30:09 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:30:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:30:09 - Starting service [Tomcat]
+2024-12-14 04:30:09 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:30:09 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:30:09 - Root WebApplicationContext: initialization completed in 1653 ms
+2024-12-14 04:30:09 - HikariPool-1 - Starting...
+2024-12-14 04:30:10 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@787988f4
+2024-12-14 04:30:10 - HikariPool-1 - Start completed.
+2024-12-14 04:30:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:30:10 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:30:10 - HHH000026: Second-level cache disabled
+2024-12-14 04:30:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:30:10 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:30:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:30:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:30:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:30:12 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:30:12 - Starting...
+2024-12-14 04:30:12 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1043c493]]
+2024-12-14 04:30:12 - Started.
+2024-12-14 04:30:12 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:30:12 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:30:12 - Started AnimeBaseApplication in 5.927 seconds (process running for 6.423)
+2024-12-14 04:30:17 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:30:17 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:30:17 - Completed initialization in 1 ms
+2024-12-14 04:30:38 - Аниме добавлено: Bagdad Incorporation
+2024-12-14 04:30:48 - Аниме удалено: 64
+2024-12-14 04:30:57 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 04:30:57 - Graceful shutdown complete
+2024-12-14 04:30:57 - Stopping...
+2024-12-14 04:30:57 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1043c493]]
+2024-12-14 04:30:57 - Stopped.
+2024-12-14 04:30:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:30:57 - HikariPool-1 - Shutdown initiated...
+2024-12-14 04:30:57 - HikariPool-1 - Shutdown completed.
+2024-12-14 04:31:38 - Starting AnimeBaseApplication using Java 23.0.1 with PID 10880 (C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work\target\classes started by me in C:\Users\me\Desktop\Учебное 3 курс\1 Семестр\Java_Projects\AnimeBase_work)
+2024-12-14 04:31:38 - No active profile set, falling back to 1 default profile: "default"
+2024-12-14 04:31:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-14 04:31:39 - Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+2024-12-14 04:31:40 - Tomcat initialized with port 8080 (http)
+2024-12-14 04:31:40 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:31:40 - Starting service [Tomcat]
+2024-12-14 04:31:40 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-14 04:31:40 - Initializing Spring embedded WebApplicationContext
+2024-12-14 04:31:40 - Root WebApplicationContext: initialization completed in 1717 ms
+2024-12-14 04:31:40 - HikariPool-1 - Starting...
+2024-12-14 04:31:41 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@787988f4
+2024-12-14 04:31:41 - HikariPool-1 - Start completed.
+2024-12-14 04:31:41 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-14 04:31:41 - HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-14 04:31:41 - HHH000026: Second-level cache disabled
+2024-12-14 04:31:41 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-14 04:31:41 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-14 04:31:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-14 04:31:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 04:31:43 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-14 04:31:43 - Adding welcome page: class path resource [static/index.html]
+2024-12-14 04:31:43 - Starting...
+2024-12-14 04:31:43 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1043c493]]
+2024-12-14 04:31:43 - Started.
+2024-12-14 04:31:43 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-14 04:31:43 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-14 04:31:43 - Started AnimeBaseApplication in 5.776 seconds (process running for 6.275)
+2024-12-14 04:31:44 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-14 04:31:44 - Initializing Servlet 'dispatcherServlet'
+2024-12-14 04:31:44 - Completed initialization in 1 ms
+2024-12-14 04:31:49 - Аниме удалено: 62
+2024-12-14 04:32:09 - Аниме добавлено: Bagdad Incorporation
+2024-12-14 04:32:14 - Аниме удалено: 65
+2024-12-14 04:32:43 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-12-14 05:02:43 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2024-12-14 05:17:31 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-14 05:17:31 - Graceful shutdown complete
+2024-12-14 05:17:31 - Stopping...
+2024-12-14 05:17:31 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@1043c493]]
+2024-12-14 05:17:31 - Stopped.
+2024-12-14 05:17:31 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-14 05:17:31 - HikariPool-1 - Shutdown initiated...
+2024-12-14 05:17:31 - HikariPool-1 - Shutdown completed.
