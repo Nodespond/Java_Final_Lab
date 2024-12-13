@@ -1,47 +1,46 @@
 package com.example.AnimeBase.controllers;
 
 import com.example.AnimeBase.logger.Text_Logger;
-import com.example.AnimeBase.logger.Text_Logger;
 import com.example.AnimeBase.models.Anime;
-import com.example.AnimeBase.services.*;
+import com.example.AnimeBase.services.*;        //пакет services, включая AnimeService и другие сервисы.
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.GetMapping;      //для обработки GET-запросов.
+import org.springframework.web.bind.annotation.PathVariable;        //для извлечения переменных из URL.
+import org.springframework.web.bind.annotation.PostMapping;     //для обработки POST-запросов.
+import org.springframework.web.bind.annotation.RequestParam;        //для извлечения параметров из запросов.
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;        //интерфейс Logger для логирования.
+import org.slf4j.LoggerFactory;     //для создания экземпляров Logger.
 
 @Controller
 @RequiredArgsConstructor
 public class AnimeController {
     private final AnimeService animeService;
-    private static final Logger logger = LoggerFactory.getLogger(AnimeController.class);
+    private static final Logger logger = LoggerFactory.getLogger(AnimeController.class);        // Создание экземпляра Logger для логирования в классе.
 
     @GetMapping("/")
-    public String animes(@RequestParam(name = "name", required = false) String name, Model model) {
+    public String animes(@RequestParam(name = "name", required = false) String name, Model model) {     // Метод для получения списка аниме.
         // Загружаем список аниме из базы данных
         model.addAttribute("animes", animeService.list(name));
         return "animes"; // Возвращаем имя шаблона
     }
 
-    @GetMapping("/anime/{id}")
-    public String animeInfo(@PathVariable Long id, Model model) {
+    @GetMapping("/anime/{id}")      //для вывода инфы об аниме для получения данных с сервера
+    public String animeInfo(@PathVariable Long id, Model model) {       //  получение информации об аниме по его ID.
         Anime anime =  animeService.getAnimeById(id);
         model.addAttribute("anime",anime);
         model.addAttribute("images",anime.getImages());
         return "anime-info";
     }
     @Async
-    @PostMapping("/anime/create")
+    @PostMapping("/anime/create")       //метод будет обрабатывать POST-запросы по URL "/anime/create".
     public String createAnime(@RequestParam("file1") MultipartFile file1,@RequestParam("file2") MultipartFile file2,@RequestParam("file3") MultipartFile file3, Anime anime, Model model) throws IOException {
         try {
             try {
@@ -81,7 +80,7 @@ public class AnimeController {
     }
 
     @PostMapping("/anime/delete/{id}")
-    public String deleteAnime(@PathVariable Long id) {
+    public String deleteAnime(@PathVariable Long id) {      //удаляем аниме, обрабатывая POST-запросы для отправки данных на сервер
         Text_Logger.loging_data("Аниме добавлено, id аниме =  " + id);
         logger.info("Аниме удалено: {}", id);
         animeService.deleteAnime(id);

@@ -32,7 +32,7 @@
         .image-container img {
             width: 25%; /* Ширина 25% от ширины контейнера */
             height: auto; /* Автоматическая высота для сохранения пропорций */
-            max-height: 50vh; /* Максимальная высота 30% от высоты вьюпорта */
+            max-height: 40vh; /* Максимальная высота 30% от высоты вьюпорта */
             margin: 0 10px; /* Отступы между изображениями */
             border-radius: 5px; /* Закругление углов изображений */
             box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); /* Тень для изображений */
@@ -44,6 +44,7 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             margin: 20px 0;
+            height:200px;
         }
 
         .info b {
@@ -57,6 +58,8 @@
         .delete-button {
             text-align: center;
             margin-top: 20px;
+            width:33%;
+            margin:0 auto;
         }
 
         input[type="submit"] {
@@ -71,6 +74,8 @@
         input[type="submit"]:hover {
             background-color: #c82333; /* Темнее при наведении */
         }
+
+
     </style>
     <script>
         function confirmDelete() {
@@ -80,7 +85,7 @@
 </head>
 <body>
 <h1>ANIME</h1>
-<h3>Подробная инфа о аниме</h3>
+<h3>Подробная инфа об аниме</h3>
 
 <div class="image-container">
     <#list images as img>
@@ -89,10 +94,10 @@
 </div>
 
 <div class="info">
-    <b>Название аниме:</b> ${anime.name}<br>
-    <b>Описание товара:</b> ${anime.description}<br>
-    <b>Число серий:</b> ${anime.series}<br>
-    <b>Тип аниме:</b> ${anime.type}<br>
+    <b>Название аниме:</b> ${anime.name}<br><br>
+    <b>Описание товара:</b> ${anime.description}<br><br>
+    <b>Число серий:</b> ${anime.series}<br><br>
+    <b>Тип аниме:</b> ${anime.type}<br><br>
 </div>
 
 <hr>
@@ -102,10 +107,10 @@
             <input type="submit" value="Удалить"/>
         </form>
     </div>
-
+    <br><br>
     <div class="delete-button">
         <a href="/">
-        <button>Вернуться на главную страницу</button>
+        <button style="background-color:green;">Вернуться на главную страницу</button>
         </a>
     </div>
 </body>

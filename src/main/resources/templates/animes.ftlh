@@ -23,7 +23,7 @@
         }
 
         form {
-            background-color: #fff;
+            background-color: LightGrey;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
@@ -45,7 +45,7 @@
 
         input[type="submit"],
         button {
-            background-color: #007BFF;
+            background-color: green;
             color: white;
             border: none;
             cursor: pointer;
@@ -53,7 +53,7 @@
 
         input[type="submit"]:hover,
         button:hover {
-            background-color: #0056b3;
+            background-color: green;
         }
 
         .error {
@@ -90,8 +90,6 @@
 </head>
 <body>
 <h1>БИБЛИОТЕКА АНИМЕ</h1>
-<h3>Здесь собраны лучшие тайтлы!</h3>
-
 <form action="/" method="get">
     Поиск по названию аниме:
     <input type="text" name="name" placeholder="Введите название аниме">
@@ -99,13 +97,13 @@
 </form>
 
 <#list animes as anime>
-<div class="anime-item">
-    <p>
-        <b>${anime.name}</b> Число серий:  ${anime.series}
-        <img src="/images/${anime.previewImageId}"
-             class="card-img-top"><br><br>
-        <a href="/anime/${anime.id}"> Подробнее...</a>
-    </p>
+<div class="anime-item" style="display: flex; align-items: center; margin-bottom: 20px; background-color: #fff; padding: 10px; border-radius: 8px; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);">
+    <img src="/images/${anime.previewImageId}" alt="Изображение аниме" style="width: 200px; height: 10%; border-radius: 5px; margin-right: 10px;">
+    <div class="anime-details" style="flex-grow: 1;">
+        <b>${anime.name}</b><br><br>
+        Число серий: ${anime.series}<br><br>
+        <a href="/anime/${anime.id}" class="details-button" style="background-color: #007BFF; color: white; padding: 5px 10px; border-radius: 5px; text-decoration: none;">Подробнее...</a>
+    </div>
 </div>
 <#else>
 <h3>Аниме нет</h3>

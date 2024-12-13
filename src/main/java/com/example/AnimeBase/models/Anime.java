@@ -1,21 +1,21 @@
 package com.example.AnimeBase.models;
 
-import jakarta.persistence.*;
+import jakarta.persistence.*;  //все аннотаций и классы из пакета Jakarta Persistence (JPA) для работы с БД.
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Data;     //автоматической генерации методов доступа
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
+import java.time.LocalDateTime;         //для работы с датой и временем
+import java.util.ArrayList;     //динамические массивы
+import java.util.List;      //списки
 
-@Entity
-@Table(name="animes")
-@Data
+@Entity     //класс будет отображаться в таблице БД
+@Table(name="animes")       //имя таблицы в БД с которым связываем
+@Data       //методы доступа и прочее
 @AllArgsConstructor
 @NoArgsConstructor
 public class Anime {
-    @Id
+    @Id     //это поле будет ID
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
@@ -28,15 +28,15 @@ public class Anime {
     @Column(name = "type")
     private String type;
     @Column(name = "image")
-    private String imagePath;
+    private String imagePath;       //путь к картинке аниме
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY,
-    mappedBy = "anime")
-    private List<Image> images = new ArrayList<>();
+    mappedBy = "anime")     //связь один ко многим, подгружаем лениво
+    private List<Image> images = new ArrayList<>();         //список картинок с данным аниме
     private Long previewImageId;        //для получения превью фото
-    private LocalDateTime dateOfCreated;
+    private LocalDateTime dateOfCreated;        //дата создания аниме
 
-    @PrePersist     //метод инициализации
+    @PrePersist     //метод инициализации, метод вызывается перед сохранением объекта в БД
     private void init(){
         dateOfCreated = LocalDateTime.now();
     }

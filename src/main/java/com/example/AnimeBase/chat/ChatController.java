@@ -9,10 +9,10 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class ChatController {
 
-    @MessageMapping("/chat.sendMessage")
-    @SendTo("/topic/public")
+    @MessageMapping("/chat.sendMessage")        // Указывает, что этот метод будет обрабатывать сообщения, отправленные на адрес "/chat.sendMessage".
+    @SendTo("/topic/public")        //сообщения будут отправлены на адрес "/topic/public".
     public ChatMessage sendMessage(
-            @Payload ChatMessage chatMessage
+            @Payload ChatMessage chatMessage        //Извлекает полезную нагрузку из сообщения и преобразует её в объект ChatMessage.
     ) {
         return chatMessage;
     }
@@ -21,10 +21,10 @@ public class ChatController {
     @SendTo("/topic/public")
     public ChatMessage addUser(
             @Payload ChatMessage chatMessage,
-            SimpMessageHeaderAccessor headerAccessor
+            SimpMessageHeaderAccessor headerAccessor        // Позволяет доступ к заголовкам и атрибутам сессии сообщения.
     ) {
-        // Add username in web socket session
-        headerAccessor.getSessionAttributes().put("username", chatMessage.getSender());
-        return chatMessage;
+        //Добавляем пользователя в сессию чата
+        headerAccessor.getSessionAttributes().put("username", chatMessage.getSender());     // Сохраняет имя отправителя в атрибутах сессии, чтобы можно было отслеживать пользователей.
+        return chatMessage;     // Возвращает полученное сообщение, которое будет отправлено всем подписчикам на "/topic/public".
     }
 }
